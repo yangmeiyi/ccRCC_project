@@ -18,12 +18,6 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 > > ├── roc_curve            //  ROC curves  <br>
 > > ├── image <br>
 > > ├── pre_models // models for integration and comparison  <br>
-> > >  ├── Cait  <br>
-> > >  ├── MLP  <br>
-> > >  ├── TransDenseNet  <br>
-> > >  ├── TransInception  <br>
-> > >  ├── TransRegNet  <br>
-> > >  ├── Cait  <br>
 > > ├──transger // transfer learning  <br>
 > > ├── TransResNet_model // TransResNet training  <br>
 > > ├── data_enhancement // TransResNet training  <br>
