@@ -11,6 +11,7 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 
 
 ## 目录结构描述
+'''
 |--Readme.md                // help
 |--ccRCC                   
    |--external             // external validation (from public dataset TCGA-KIRC)
@@ -24,6 +25,6 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 > > ├── ensemble // model based on ensemble learning
 > > ├── heat_map // heat map
 > > ├── hot_view // CAM 
-
+'''
 
 
