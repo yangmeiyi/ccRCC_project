@@ -11,18 +11,18 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 
 
 ## 目录结构描述
-> ├──Readme.md                // help  <br>
+> ├──Readme.md        &emsp;&emsp; &emsp;         // help  <br>
 > ├──ccRCC              <br>  
-> > ├──external             // external validation (from public dataset TCGA-KIRC)  <br>
-> > ├── fpr_tpr_data             // tpr and fpr data, which can be used to draw ROC curves  <br>
-> > ├── roc_curve            //  ROC curves  <br>
+> > ├──external       &emsp;&emsp; &emsp;         // external validation (from public dataset TCGA-KIRC)  <br>
+> > ├── fpr_tpr_data     &emsp;&emsp; &emsp;           // tpr and fpr data, which can be used to draw ROC curves  <br>
+> > ├── roc_curve      &emsp;&emsp; &emsp;         //  ROC curves  <br>
 > > ├── image <br>
-> > ├── pre_models // models for integration and comparison  <br>
-> > ├──transger // transfer learning  <br>
-> > ├── TransResNet_model // TransResNet training  <br>
-> > ├── data_enhancement // TransResNet training  <br>
-> > ├── ensemble // model based on ensemble learning  <br>
-> > ├── heat_map // heat map  <br>
-> > ├── hot_view // CAM <br>
+> > ├── pre_models  &emsp;&emsp; &emsp;         // models for integration and comparison  <br>
+> > ├──transger  &emsp;&emsp; &emsp;              // transfer learning  <br>
+> > ├── TransResNet_model  &emsp;&emsp; &emsp;   // TransResNet training  <br>
+> > ├── data_enhancement  &emsp;&emsp; &emsp;   // TransResNet training  <br>
+> > ├── ensemble  &emsp;&emsp; &emsp;   // model based on ensemble learning  <br>
+> > ├── heat_map  &emsp;&emsp; &emsp;   // heat map  <br>
+> > ├── hot_view  &emsp;&emsp; &emsp;   // CAM <br>
 
 
