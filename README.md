@@ -11,7 +11,7 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 
 
 ## 目录结构描述
-> ├──Readme.md        &emsp;&emsp; &emsp;         // help  <br>
+> ├──Readme.md        &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;        // help  <br>
 > ├──ccRCC              <br>  
 > > ├──external       &emsp;&emsp; &emsp;         // external validation (from public dataset TCGA-KIRC)  <br>
 > > ├── fpr_tpr_data     &emsp;&emsp; &emsp;           // tpr and fpr data, which can be used to draw ROC curves  <br>
