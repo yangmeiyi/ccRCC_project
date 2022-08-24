@@ -2,6 +2,8 @@
 
 by Meiyi Yang, Xiaopeng He, Lifeng Xu, Minghui Liu6, Jiali Deng, Xuan Cheng, Yi Wei4, Qian Li, Shang Wan, Feng Zhang, Xiaomin Wang, Lei Wu, Bin Song，Ming Liu.
 
+E-mail: meiyiyang@std.uestc.edu.cn
+
 ## Introduction
 In this repository we release models from the paper "CT-based Transformer model for non-invasively predicting the Fuhrman nuclear grade of clear cell renal cell carcinoma".
 
@@ -45,6 +47,15 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 python3 ./TransResNet_model/train.py
 
 ### Getting Started
-* For TransResNet, please see TransResNet_model/train.py for detailed instructions.
-* For Transfer Learnig, please see transfer.
-* For Ensembel learning, please see pre_models and ensemble.py.
+* For TransResNet (Table 2 in paper), please see TransResNet_model/train.py for detailed instructions.
+* For Figure 2 in paper, plearse see rotate.py and data_enhancement.py.
+* For Ensembel learning (Table 3 in paper), please see pre_models and ensemble.py.
+* For Performance with Data Enhancement (Figure 4 in paper), please see heat_map.py
+* For Transfer Learnig (Table 5 in paper), please see transfer.
+* For ROC curves (Figure 5 in paper), please see roc_curve.
+* For Figures 7 and 8 in paper,  please see hot_view.py.
+
+
+
+
+
