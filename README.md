@@ -37,8 +37,7 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 * cuda
 
 ### Parameters
-![image](https://github.com/yangmeiyi/ccRCC_project/blob/main/parameters.png)
-<div align=center><img src="https://github.com/yangmeiyi/ccRCC_project/blob/main/parameters.png" width="200" height="100" /></div>
+<div align=center><img src="https://github.com/yangmeiyi/ccRCC_project/blob/main/parameters.png" width="400" height="300" /></div>
 
 ### Usage
 
