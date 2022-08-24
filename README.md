@@ -27,6 +27,7 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 
 
 ## Code 
+
 ### Requirements
 * Ubuntu (It's only tested on Ubuntu, so it may not work on Windows.)
 * Python >= 3.6.8
@@ -34,6 +35,9 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 * torchvision
 * einops
 * cuda
+
+### Parameters
+![image](https://github.com/yangmeiyi/ccRCC_project/blob/main/parameters.png)
 
 ### Usage
 
