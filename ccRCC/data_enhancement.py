@@ -12,7 +12,6 @@ import random
 import shutil
 
 
-# source_file:源路径, target_ir:目标路径
 def cover_files(source_dir, target_ir):
     for file in os.listdir(source_dir):
         source_file = os.path.join(source_dir, file)
@@ -32,11 +31,11 @@ def ensure_dir_exists(dir_name):
 
 def moveFile(file_dir, save_dir):
     ensure_dir_exists(save_dir)
-    path_dir = os.listdir(file_dir)  # 取图片的原始路径
+    path_dir = os.listdir(file_dir)  # Image original path
     filenumber = len(path_dir)
-    rate = 0.5 # 自定义抽取图片的比例，比方说100张抽10张，那就是0.1
-    picknumber = int(filenumber * rate)  # 按照rate比例从文件夹中取一定数量图片
-    sample = random.sample(path_dir, picknumber)  # 随机选取picknumber数量的样本图片
+    rate = 0.5 
+    picknumber = int(filenumber * rate)  
+    sample = random.sample(path_dir, picknumber)  
     for name in sample:
         path = file_dir + name
         image = plt.imread(path)
@@ -50,8 +49,8 @@ def moveFile(file_dir, save_dir):
 
 def mkdir(path):
     folder = os.path.exists(path)
-    if not folder:  # 判断是否存在文件夹如果不存在则创建为文件夹
-        os.makedirs(path)  # makedirs 创建文件时如果路径不存在会创建这个路径
+    if not folder:  
+        os.makedirs(path) 
         print("---  new folder...  ---")
         print("---  OK  ---")
     else:
@@ -64,11 +63,11 @@ if __name__ == '__main__':
     path_save = "/home/yangmy/MedTData/dataClean/cleaned/Blur_train/1/"
     dirs = os.listdir(path)
     for file in dirs:
-        file_dir = path + file + '/'  # 源图片文件夹路径
+        file_dir = path + file + '/' 
         print(file_dir)
-        save_dir = path_save + file  # 移动到新的文件夹路径
+        save_dir = path_save + file  
         print(save_dir)
-        mkdir(save_dir)  # 创造文件夹
+        mkdir(save_dir)  
         save_dir = save_dir + '/'
         moveFile(file_dir, save_dir)
 
