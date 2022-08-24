@@ -33,6 +33,7 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 * PyTorch >= 1.0.1
 * torchvision
 * einops
+* cuda
 
 ### Usage
 
