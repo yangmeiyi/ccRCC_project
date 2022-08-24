@@ -45,6 +45,6 @@ TransResNet was proposed to predict the low and high nuclear grade ccRCC, which 
 python3 ./TransResNet_model/train.py
 
 ### Getting Started
-* For TransResNet, please see TransResNet_model/train for detailed instructions.
-* For Transfer Learnig, please see Transfer.
-* For Ensembel learning, please see re_models and ensemble.
+* For TransResNet, please see TransResNet_model/train.py for detailed instructions.
+* For Transfer Learnig, please see transfer.
+* For Ensembel learning, please see pre_models and ensemble.py.
